@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4f8;;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+#highscoreBox{
+    position: absolute;
+    top: 95px;
+    right: 125px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+#board{
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    background-color: #d1e8e2;
+    border: none;
+    box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90vmin;
+    height: 92vmin;
+}
+
+.head, .snake {
+    background: linear-gradient(145deg, #00c851, #007e33);
+    border: .25vmin solid black;
+    border-radius: 12px;
+    transform: scale(1.02);
+}
+
+.food {
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 30px;
+}
