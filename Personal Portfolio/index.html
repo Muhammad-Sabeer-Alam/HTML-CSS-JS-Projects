@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Sabeer Alam</div>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="nav-toggle" id="navToggle">
+                <span class="hamburger"></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Sabeer Alam</span></h1>
+            <div id="typing-container">
+                <p class="typing-text"></p>
+            </div>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="hero_image_no_bg.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section fade-in">
+        <div class="about-content">
+            <img src="about.webp" alt="About Image" class="about-image">
+            <h2>About Me</h2>
+            <p>I am a web developer with a strong focus on creating beautiful, modern, and user-friendly websites. My
+                passion for design and attention to detail allows me to create stunning interfaces.</p>
+        </div>
+
+        <div class="cards-container">
+            <!-- Education Section -->
+            <div class="education">
+                <h3>Education</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>2024 - 2026</h4>
+                        <p>Master's Degree in Computer Science</p>
+                        <p>XYZ University</p>
+                    </div>
+                    <div class="card">
+                        <h4>2020 - 2024</h4>
+                        <p>Bachelor's Degree in Computer Science</p>
+                        <p>XYZ University</p>
+                    </div>
+                    <div class="card">
+                        <h4>2018 - 2020</h4>
+                        <p>High School Diploma</p>
+                        <p>ABC High School</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="timeline">
+                <h3>Experience</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <h4>2022 - Present</h4>
+                        <p>Senior Web Developer</p>
+                        <p>XYZ Company</p>
+                    </div>
+                    <div class="card">
+                        <h4>2020 - 2022</h4>
+                        <p>Front-End Developer</p>
+                        <p>ABC Corp</p>
+                    </div>
+                    <div class="card">
+                        <h4>2018 - 2020</h4>
+                        <p>Junior Web Developer</p>
+                        <p>Start-Up</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React Js</li>
+                <li>Python</li>
+                <li>C#</li>
+            </ul>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+
+        <!-- Download Resume Button -->
+        <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+        <!-- Hire Me Button -->
+        <a href="#" class="hire-btn">Hire Me</a>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section fade-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>E-commerce Website</h3>
+                <p>Description of the project goes here.</p>
+                <div class="project-details">
+                    <p><strong>Technologies: </strong> HTML, CSS, Javascript</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Portfolio Website</h3>
+                <p>Description of the project goes here.</p>
+                <div class="project-details">
+                    <p><strong>Technologies: </strong> HTML, CSS, Javascript</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3>To-Do App</h3>
+                <p>Description of the project goes here.</p>
+                <div class="project-details">
+                    <p><strong>Technologies: </strong> HTML, CSS, Javascript</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="service" class="service-section fade-in">
+        <h2>Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <i class="fas fa-laptop-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>I build modern and responsive websites tailored to your business needs, focusing on performance and
+                    user experience.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-paint-brush service-icon"></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating visually appealing and intuitive designs to enhance user engagement and improve brand
+                    interaction.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-mobile-alt service-icon"></i>
+                <h3>Mobile App Development</h3>
+                <p>Developing mobile applications for both iOS and Android platforms with a focus on functionality and
+                    user interface.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section fade-in">
+        <h2>Contact Me</h2>
+
+        <p>If you have any questions or inquiries, feel free to reach out using the form below or send me an email!</p>
+
+        <div class="contact-form">
+            <form action="your_form_handler.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+
+        <a href="mailto:youremail@example.com" class="contact-button">Get In Touch</a>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
